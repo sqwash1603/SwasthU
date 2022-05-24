@@ -8,6 +8,11 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/update.css" />
     <title>SwasthU</title>
@@ -95,25 +100,23 @@
         </div>
       </div>
     </div>
-
-    <!-- <div
-      class="container-fluid"
-      id="header"
-      style="background-image: url(background.png)"
-    >
-      <div class="row">
-        <div class="col-md-6"></div>
-        <div class="col-md-6">
-          <div class="component">
-            <h1 class="header-title">
-              Instant Consultation With Trusted Doctors
-            </h1>
-            <button type="button">Book Online Consultation</button>
-          </div>
-        </div>
-       <img class="img-fluid" src="assets/Group 5.png" alt="" />
+    <div class="position-relative">
+      <div class="position-absolute slick-text-content">
+        <p class="brand-color">Instant Consultation With Trusted Doctors</p>
+        <button>Book Online Consultation</button>
       </div>
-    </div> -->
+      <div class="your-class">
+        <div>
+          <img src="./assets/hero-bg-img.png" alt="" class="img-fluid w-100" />
+        </div>
+        <div>
+          <img src="./assets/hero-bg-img.png" alt="" class="img-fluid w-100" />
+        </div>
+        <div>
+          <img src="./assets/hero-bg-img.png" alt="" class="img-fluid w-100" />
+        </div>
+      </div>
+    </div>
 
     <!-- <div class="container-fluid speciality">
       <div class="row">
@@ -361,8 +364,24 @@
     ></script>
 
     <script
+      type="text/javascript"
+      src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script
       src="https://kit.fontawesome.com/c64fff7a9f.js"
       crossorigin="anonymous"
     ></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".your-class").slick({
+          autoplay: true,
+          arrows: false,
+          dots: true,
+          dotsClass: "custom-dots",
+        });
+      });
+    </script>
   </body>
 </html>
