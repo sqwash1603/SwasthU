@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+.font-primary {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.brand-color {
+  color: #4C84C3;
+}
+
+.brand-border-color {
+  border-color: #4C84C3;
+}
+
+.rounded-10px {
+  border-radius: 10px;
+}
+
+.bg-brand-color {
+  background: #4C84C3;
+}
+
+.black-1 {
+  color: #545454;
+}
+
+.bg-black-1 {
+  background-color: #545454;
+}
+
+.login-button {
+  width: 152px;
+  height: 32px;
+  background: #FFFFFF;
+  border: 1px solid #4C84C3;
+  border-radius: 10px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #4C84C3;
+}
+
+.login-button:hover {
+  color: #fff;
+  background: #4C84C3;
+  transition: all 0.2s;
+}
+
+/* ################################################################# */
+/* index page style  */
+.brand-logo {
+  margin-right: 55px;
+}
+
+
+.custom-navbar {
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
+}
+
+.custom-nav-link {
+  color: #545454;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+.custom-nav-link:hover {
+  color: #4C84C3;
+  cursor: pointer;
+}
+
+.custom-nav-item {
+  margin-right: 26px;
+}
+
+.location-input {
+  border: 1px solid #4C84C3;
+  border-radius: 10px 0px 0px 10px;
+  width: 152px;
+  padding-left: 2.5rem;
+}
+
+.search-input {
+  width: 400px;
+  border: 1px solid #4C84C3;
+  border-radius: 0px 10px 10px 0px;
+  padding-left: 2.5rem;
+}
+
+.location-input::placeholder,
+.search-input::placeholder {
+  font-size: 14px;
+}
+
+.search-input-icon {
+  top: 10px;
+  left: 10px;
+  position: absolute;
+}
