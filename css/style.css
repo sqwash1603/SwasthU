@@ -115,7 +115,7 @@ nav .second_ul {
   text-align: center;
   padding: 30px;
 }
-
+/*
 .speciality .section-head h3 {
 
   font-family: 'Open Sans';
@@ -170,7 +170,7 @@ nav .second_ul {
   border: 1px solid #4C84C3;
   border-radius: 10px;
 }
-
+*/
 /*///////////////////////////////////*/
 
 
@@ -180,7 +180,7 @@ nav .second_ul {
 
 
 /*///////////////////////////////////////////////*/
-.why {
+/*.why {
   margin-top: 150px;
   padding: 30px;
 }
@@ -255,13 +255,14 @@ nav .second_ul {
 
   background: #000000;
 }
+*/
 
 /*////////////////////////////////////////////////////////////////////*/
 
 
 
 
-/*//////App Section/////////////////////////////*/
+/*//////App Section/////////////////////////////
 #app {
   background-color: rgb(231, 203, 194);
   width: 1300px;
@@ -269,6 +270,7 @@ nav .second_ul {
   left: 105px;
   top: 2476px;
   margin-top: 120px;
+  
 }
 
 #app .app-content {
@@ -301,7 +303,7 @@ nav .second_ul {
   line-height: 27px;
   color: #000000;
 }
-
+*/
 /*//////App Section/////////////////////////////*/
 
 #footer {
