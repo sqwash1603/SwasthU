@@ -108,6 +108,7 @@ nav .second_ul {
   text-align: center;
   padding: 30px;
 }
+
 /*
 .speciality .section-head h3 {
 
@@ -1054,7 +1055,7 @@ nav ul li img {
   justify-content: space-between;
 }
 
-.flex-outer > li:not(:last-child) {
+.flex-outer>li:not(:last-child) {
   margin-bottom: 20px;
 }
 
