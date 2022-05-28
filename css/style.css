@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Roboto:300, 400, 700&display=swap';
+@import "https://fonts.googleapis.com/css?family=Roboto:300, 400, 700&display=swap";
 
 * {
   padding: 0;
@@ -7,13 +7,12 @@
 }
 
 html {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
 }
 
 /* Nav Section*/
 nav {
-
   padding: 30px;
   display: flex;
   justify-content: space-between;
@@ -22,9 +21,8 @@ nav {
   height: 100px;
   left: 0px;
   top: 0px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.25);
-
 }
 
 /* nav img{
@@ -57,11 +55,9 @@ nav {
 nav .second_ul {
   margin: -50px;
   justify-content: space-around;
-
 }
 
 /* Nav Section*/
-
 
 /*Hero Section*/
 #header {
@@ -77,37 +73,34 @@ nav .second_ul {
   margin-top: 200px;
   width: 400px;
   height: 123px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 54px;
-  color: #4C84C3;
+  color: #4c84c3;
 }
 
 #header button {
   box-sizing: border-box;
-  background: #4C84C3;
-  border: 1px solid #4C84C3;
+  background: #4c84c3;
+  border: 1px solid #4c84c3;
   border-radius: 10px;
   width: 223px;
   height: 37px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 252px;
   height: 32px;
   left: 1252px;
   top: 344x;
-
 }
 
 /*Hero Section*/
-
-
 
 /*/////////////////////////////////////////////*/
 .speciality {
@@ -115,6 +108,7 @@ nav .second_ul {
   text-align: center;
   padding: 30px;
 }
+
 /*
 .speciality .section-head h3 {
 
@@ -173,12 +167,6 @@ nav .second_ul {
 */
 /*///////////////////////////////////*/
 
-
-
-
-
-
-
 /*///////////////////////////////////////////////*/
 /*.why {
   margin-top: 150px;
@@ -192,12 +180,7 @@ nav .second_ul {
   font-style: normal;
 }
 
-.why .section-head .title {
-  font-weight: 600;
-  font-size: 40px;
-  line-height: 41px;
-  color: #000000;
-}
+.why .section-head 
 
 .why .section-head .text {
   font-weight: 400;
@@ -259,9 +242,6 @@ nav .second_ul {
 
 /*////////////////////////////////////////////////////////////////////*/
 
-
-
-
 /*//////App Section/////////////////////////////
 #app {
   background-color: rgb(231, 203, 194);
@@ -311,7 +291,6 @@ nav .second_ul {
   padding: 50px;
   height: 600px;
   margin-top: 200px;
-
 }
 
 #footer h3 {
@@ -320,7 +299,7 @@ nav .second_ul {
   left: 152px;
   top: 3679.24px;
 
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -335,15 +314,14 @@ nav .second_ul {
   left: 152px;
   top: 3722px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 120%;
   /* or 18px */
 
-
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #footer h4 {
@@ -352,12 +330,12 @@ nav .second_ul {
   left: 703px;
   top: 3683px;
 
-  font-family: 'Fjalla One';
+  font-family: "Fjalla One";
   font-style: normal;
   font-weight: 400;
   font-size: 23px;
   line-height: 29px;
-  color: #B2DDED;
+  color: #b2dded;
 }
 
 #footer input {
@@ -365,17 +343,15 @@ nav .second_ul {
   height: 44.97px;
   left: 699.26px;
   top: 3725px;
-  border: 1px solid #B2DDED;
+  border: 1px solid #b2dded;
   border-radius: 20px;
   background-color: #283779;
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 120%;
-  color: #B2DDED;
-
-
+  color: #b2dded;
 }
 
 #footer button {
@@ -383,12 +359,11 @@ nav .second_ul {
   height: 48px;
   left: 1064px;
   top: 3722px;
-  background: #FFFFFF;
+  background: #ffffff;
   border-radius: 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
-
 }
 
 #second-footer {
@@ -399,17 +374,17 @@ nav .second_ul {
 }
 
 #second-footer li {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 120%;
-  color: #B2DDED;
+  color: #b2dded;
   list-style: none;
 }
 
 #second-footer li .bold {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -460,13 +435,10 @@ nav ul li img {
   right: 33.69%;
   top: 52.35%;
   bottom: 15.35%;
-  ;
 }
 
 #profile-hero .main-intro {
-
   margin-left: 550px;
-
 }
 
 #profile-hero h3 {
@@ -474,7 +446,7 @@ nav ul li img {
   height: 55px;
   left: 443px;
   top: 375px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -485,22 +457,21 @@ nav ul li img {
 
 #profile-hero button {
   box-sizing: border-box;
-  background: #4C84C3;
-  border: 1px solid #4C84C3;
+  background: #4c84c3;
+  border: 1px solid #4c84c3;
   border-radius: 10px;
   width: 223px;
   height: 37px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
-  color: #FFFFFF;
+  color: #ffffff;
   width: 252px;
   height: 32px;
   left: 1252px;
   top: 344x;
-
 }
 
 #profile-hero .main-intro p .intro {
@@ -508,7 +479,7 @@ nav ul li img {
   height: 21px;
   left: 443px;
   top: 418px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -523,7 +494,7 @@ nav ul li img {
   left: 441px;
   top: 453px;
 
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -533,12 +504,10 @@ nav ul li img {
   color: #555555;
 }
 
-
 #profile-clinic {
   padding: 50px;
   margin: 120px;
   background-color: rgba(178, 221, 237, 0.3);
-  ;
 }
 
 #profile-clinic h1 {
@@ -548,14 +517,14 @@ nav ul li img {
   top: 747px;
   margin: 33px;
   padding: 10px;
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 37px;
   letter-spacing: 0.05em;
   text-transform: capitalize;
-  color: #4C84C3;
+  color: #4c84c3;
 }
 
 #profile-clinic p {
@@ -565,7 +534,7 @@ nav ul li img {
   height: 309px;
   left: 104px;
   top: 816px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -584,7 +553,7 @@ nav ul li img {
   top: 735px;
   margin-left: 90px;
   margin-top: 20px;
-  background: #4C84C3;
+  background: #4c84c3;
   border-radius: 20px;
 }
 
@@ -603,7 +572,6 @@ nav ul li img {
   height: 360px;
   left: 119px;
   top: 1586px;
-
 }
 
 #Profile-about h3 {
@@ -612,15 +580,14 @@ nav ul li img {
   left: 636px;
   top: 1585px;
   padding: 30px;
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 29px;
   text-transform: capitalize;
 
-  color: #4C84C3;
-
+  color: #4c84c3;
 }
 
 #Profile-about p {
@@ -629,7 +596,7 @@ nav ul li img {
   left: 636px;
   top: 1655px;
   padding: 30px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -639,7 +606,6 @@ nav ul li img {
   text-transform: capitalize;
 
   color: #555555;
-
 }
 
 #profile-clinic .career h3 {
@@ -648,21 +614,18 @@ nav ul li img {
   left: 119px;
   top: 2158px;
 
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
   line-height: 29px;
   text-transform: capitalize;
 
-  color: #4C84C3;
-
-
+  color: #4c84c3;
 }
 
 .career #first-row {
   padding: 50px;
-
 }
 
 .career img {
@@ -670,7 +633,6 @@ nav ul li img {
   height: 144px;
   margin-left: 180px;
   mix-blend-mode: multiply;
-
 }
 
 .career h5 {
@@ -679,14 +641,13 @@ nav ul li img {
   left: 183px;
   top: 2264px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
 
-  color: #4C84C3;
-
+  color: #4c84c3;
 }
 
 .career ol li {
@@ -695,13 +656,13 @@ nav ul li img {
   left: 183px;
   top: 2264px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
 
-  color: #4C84C3;
+  color: #4c84c3;
 }
 
 .career p {
@@ -710,14 +671,13 @@ nav ul li img {
   left: 213px;
   top: 2359px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
   line-height: 20px;
 
   color: #555555;
-
 }
 
 .career hr {
@@ -727,7 +687,7 @@ nav ul li img {
   left: 188px;
   top: 2519px;
   margin-left: 110px;
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
 }
 
 .career .another {
@@ -735,7 +695,7 @@ nav ul li img {
 }
 
 #profile-education h3 {
-  font-family: 'Epilogue';
+  font-family: "Epilogue";
   font-style: normal;
   font-weight: 600;
   font-size: 28px;
@@ -743,7 +703,7 @@ nav ul li img {
   text-align: center;
   text-transform: capitalize;
 
-  color: #4C84C3;
+  color: #4c84c3;
 }
 
 #profile-education .common {
@@ -751,8 +711,8 @@ nav ul li img {
   width: 457px;
   height: 400px;
   margin: 90px;
-  background: #FFFFFF;
-  border: 1px solid #E0DEDE;
+  background: #ffffff;
+  border: 1px solid #e0dede;
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
@@ -763,14 +723,13 @@ nav ul li img {
   left: 234px;
   top: 3184px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
 
-  color: #4C84C3;
-
+  color: #4c84c3;
 }
 
 #profile-education .common p {
@@ -779,7 +738,7 @@ nav ul li img {
   left: 234px;
   top: 3692px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -794,20 +753,18 @@ nav ul li img {
   left: 256px;
   top: 3751px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 15px;
   line-height: 20px;
 
   color: #000000;
-
 }
-
 
 /*..............................Dr.Profile.html........................*/
 #second-profile {
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 2px 20px rgb(0 0 0 / 25%);
   border-radius: 10px;
   width: 1200px;
@@ -840,8 +797,7 @@ nav ul li img {
 }
 
 .some p {
-
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -851,7 +807,7 @@ nav ul li img {
 
 .some .more {
   width: 495px;
-  background: #E6EEF2;
+  background: #e6eef2;
   border-radius: 10px;
   padding: 44px;
   margin-top: -75px;
@@ -864,14 +820,14 @@ nav ul li img {
   height: 55px;
   left: 173px;
   top: 954px;
-  background: #E6EEF2;
+  background: #e6eef2;
   border-radius: 10px;
   margin: 140px;
   width: 1200px;
 }
 
 #nav .nav-item {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -881,7 +837,7 @@ nav ul li img {
 }
 
 #education h3 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-weight: 700;
   font-size: 28px;
   line-height: 60px;
@@ -896,7 +852,7 @@ nav ul li img {
   left: 1144px;
   top: 1075px;
 
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -904,7 +860,7 @@ nav ul li img {
   display: flex;
   align-items: center;
 
-  color: #4C84C3;
+  color: #4c84c3;
 }
 
 #education section {
@@ -913,16 +869,16 @@ nav ul li img {
 }
 
 #education section h5 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 27px;
-  color: #4C84C3;
+  color: #4c84c3;
 }
 
 #education section p {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -936,7 +892,7 @@ nav ul li img {
 }
 
 #doctor-list h3 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -951,9 +907,8 @@ nav ul li img {
   height: 55px;
   left: 112px;
   top: 301px;
-  background: #E6EEF2;
+  background: #e6eef2;
   border-radius: 10px;
-
 }
 
 #doctor-list section p {
@@ -962,7 +917,7 @@ nav ul li img {
   left: 305px;
   top: 299px;
   margin-top: 12px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -975,7 +930,7 @@ nav ul li img {
 }
 
 #doctors h3 {
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 28px;
@@ -985,7 +940,7 @@ nav ul li img {
 }
 
 #doctors h6 {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -993,11 +948,10 @@ nav ul li img {
   text-transform: capitalize;
 
   color: #555555;
-
 }
 
 #doctors p {
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -1014,8 +968,7 @@ nav ul li img {
 }
 
 #doctors .last {
-
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-style: normal;
 }
 
@@ -1027,7 +980,6 @@ nav ul li img {
   text-transform: capitalize;
 
   color: #555555;
-
 }
 
 #doctors .last p {
@@ -1037,7 +989,7 @@ nav ul li img {
   text-align: right;
   text-transform: capitalize;
 
-  color: #24A78F;
+  color: #24a78f;
 }
 
 #doctors .last button {
@@ -1045,16 +997,15 @@ nav ul li img {
   height: 37px;
   margin-left: 85px;
   box-sizing: border-box;
-  background: #4C84C3;
-  border: 1px solid #4C84C3;
+  background: #4c84c3;
+  border: 1px solid #4c84c3;
   border-radius: 10px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 /*...............Patient Dashboard.........................*/
@@ -1065,22 +1016,19 @@ nav ul li img {
   bottom: 0px;
   width: 1300px;
   margin-left: 126px;
-  background: #FFFFFF;
+  background: #ffffff;
   box-shadow: 0px 12px 26px rgba(16, 30, 115, 0.06);
   border-radius: 8px;
 }
 
 #table h3 {
-
-
-  font-family: 'Lato';
+  font-family: "Lato";
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 26px;
   letter-spacing: 0.2px;
-  color: #25282B;
-
+  color: #25282b;
 }
 
 /*..................................Patient Profile..................................*/
@@ -1115,8 +1063,8 @@ nav ul li img {
 .flex-outer li p {
   padding: 8px;
 
-  letter-spacing: .09em;
-  font-family: 'Roboto';
+  letter-spacing: 0.09em;
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -1135,13 +1083,9 @@ nav ul li img {
   max-width: 220px;
 }
 
-
-
 .flex-outer li p {
   margin: 0;
 }
-
-
 
 .flex-outer li button {
   box-sizing: border-box;
@@ -1149,17 +1093,16 @@ nav ul li img {
   height: 37px;
   left: 228px;
   top: 1133px;
-  background: #4C84C3;
-  border: 1px solid #4C84C3;
+  background: #4c84c3;
+  border: 1px solid #4c84c3;
   border-radius: 10px;
-  font-family: 'Open Sans';
+  font-family: "Open Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 13px;
   line-height: 18px;
 
-  color: #FFFFFF;
-
+  color: #ffffff;
 }
 
 .flex-inner li {
